@@ -1,0 +1,2 @@
+src/*.php       /usr/share/php/Psr/Http/Server
+composer.json   /usr/share/php/Psr/Http/Server

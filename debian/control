@@ -1,0 +1,20 @@
+Source: php-psr-http-server-middleware
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/php-fig/http-server-middleware
+Rules-Requires-Root: no
+
+Package: php-psr-http-server-middleware
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-psr-http-message,
+ php-psr-http-server-handler
+Description: PSR-15 HTTP Server Middleware Interface
+ This package holds the MiddlewareInterface for PSR-15 HTTP
+ server-side middleware as defined by PHP-FIG.
